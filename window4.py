@@ -21,4 +21,3 @@ begin_sit = "Начать делать приседание"
 begin_end = "Начать финальный тест"
 resullts = "Отправитьрезультаты"
 new = 'fgjfdgjdfjkgdfjk'
-fgfdg= 'dfdsf'
