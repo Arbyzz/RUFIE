@@ -1,5 +1,6 @@
 from PyQt5.QtCore import Qt
 from window4 import *
+from window2 import *
 from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QLabel, QVBoxLayout, QHBoxLayout
 class MainWin(QWidget):
     def __init__(self):
@@ -21,11 +22,11 @@ class MainWin(QWidget):
         self.layout.addWidget(self.insertuction)
         self.layout.addWidget(self.btn)
         self.setLayout(self.layout)
-    def connects(sef):
-        self.btn_1.clicked.connect(self.next_click)
-        def next_click(self):
-            self.hide()
-            self.tw = TestWin
+    def connects(self):
+        self.btn.clicked.connect(self.next_click)
+    def next_click(self):
+        self.hide()
+        self.tw = TestWin()
 app = QApplication([])
 mw = MainWin()
 app.exec_()
