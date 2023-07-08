@@ -1,6 +1,7 @@
 from PyQt5.QtCore import Qt
 from window4 import *
 from window2 import *
+from window3 import *
 from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QLabel, QVBoxLayout, QHBoxLayout
 class MainWin(QWidget):
     def __init__(self):
